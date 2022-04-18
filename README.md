@@ -7,6 +7,7 @@ Steps to follow:-
 2] Create project for Django
 steps to follow:-
 • pip install Django
+• pip install djangorestframework
 • django-admin startproject tutorial
 (inside tutorial create app)
 • python manage.py startapp snippets
