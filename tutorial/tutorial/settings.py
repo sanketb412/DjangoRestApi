@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# Now add the snippets app and rest_framework to the INSTALLED_APPS config in our tutorial/settings.py file. It's not enough to simply create new apps; they must also be explicitly added to INSTALLED_APPS.
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'snippets'
 ]
 
 MIDDLEWARE = [

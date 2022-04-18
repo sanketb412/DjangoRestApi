@@ -12,3 +12,5 @@ steps to follow:-
 (inside tutorial create app)
 • python manage.py startapp snippets
 {tutorial and snippets are project and app name respecetively}
+
+https://learndjango.com/tutorials/official-django-rest-framework-tutorial-beginners
